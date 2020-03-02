@@ -1,0 +1,142 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 289
+  ClientWidth = 554
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 440
+    Top = 208
+    Width = 3
+    Height = 13
+  end
+  object Label2: TLabel
+    Left = 48
+    Top = 64
+    Width = 75
+    Height = 13
+    Caption = 'vitesse moteur:'
+  end
+  object Label3: TLabel
+    Left = 125
+    Top = 64
+    Width = 109
+    Height = 13
+    Caption = 'vitesse en chiffre km/h'
+  end
+  object Label4: TLabel
+    Left = 48
+    Top = 83
+    Width = 59
+    Height = 13
+    Caption = 'couplemetre'
+  end
+  object Label5: TLabel
+    Left = 125
+    Top = 83
+    Width = 55
+    Height = 13
+    Caption = 'traction Nm'
+  end
+  object Label6: TLabel
+    Left = 48
+    Top = 102
+    Width = 97
+    Height = 13
+    Caption = 'lecture capteur TOR'
+  end
+  object Label7: TLabel
+    Left = 186
+    Top = 83
+    Width = 77
+    Height = 13
+    Caption = 'compression Nm'
+  end
+  object Label8: TLabel
+    Left = 168
+    Top = 102
+    Width = 64
+    Height = 13
+    Caption = 'ouvert/ferm'#233
+  end
+  object Label9: TLabel
+    Left = 421
+    Top = 221
+    Width = 125
+    Height = 13
+    Caption = 'echec/ reussite connexion'
+  end
+  object Button1: TButton
+    Left = 25
+    Top = 168
+    Width = 97
+    Height = 41
+    Caption = 'ouvrir'
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 25
+    Top = 240
+    Width = 97
+    Height = 41
+    Caption = 'fermer'
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 25
+    Top = 16
+    Width = 121
+    Height = 21
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 433
+    Top = 240
+    Width = 97
+    Height = 41
+    Caption = 'connexion'
+    TabOrder = 3
+    OnClick = Button3Click
+  end
+  object Edit2: TEdit
+    Left = 168
+    Top = 16
+    Width = 121
+    Height = 21
+    TabOrder = 4
+  end
+  object Button4: TButton
+    Left = 137
+    Top = 240
+    Width = 97
+    Height = 41
+    Caption = 'TracerCourbe'
+    TabOrder = 5
+  end
+  object Button5: TButton
+    Left = 137
+    Top = 168
+    Width = 97
+    Height = 41
+    Caption = 'historique'
+    TabOrder = 6
+  end
+  object ClientSocket1: TClientSocket
+    Active = False
+    ClientType = ctNonBlocking
+    Port = 0
+    OnConnect = ClientSocket1Connect
+    Left = 512
+    Top = 8
+  end
+end

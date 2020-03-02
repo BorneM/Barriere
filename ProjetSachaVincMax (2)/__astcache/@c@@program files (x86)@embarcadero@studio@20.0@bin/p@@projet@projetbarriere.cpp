@@ -1,0 +1,42 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "ProjetBarriere.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::FormClose(TObject *Sender, TCloseAction &Action)
+{
+     ClientSocket1->Active = false;
+
+}
+//---------------------------------------------------------------------------
+
+
+
+void __fastcall TForm1::FormCreate(TObject *Sender)
+{
+    ClientSocket1->Port = 23;
+  ClientSocket1->Host = " 172.20.101.3 ";
+  ClientSocket1->Active = True;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button3Click(TObject *Sender)
+{
+    if( ClientSocket1->Active )
+    ClientSocket1->Socket->SendText(Edit1->Text);
+}
+//---------------------------------------------------------------------------
+
