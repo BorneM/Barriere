@@ -4,6 +4,13 @@
 #pragma hdrstop
 
 #include "ProjetBarriere.h"
+#include "PortComDI.h"
+#include "PortComDI.cpp"
+#include <cstddef>
+#include <fileapi.h>
+#include <Winbase.h >
+#include <stdio.h>
+#include <iostream>
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -43,4 +50,34 @@ void __fastcall TForm1::ClientSocket1Error(TObject *Sender, TCustomWinSocket *So
 }
 //---------------------------------------------------------------------------
 
+
+
+
+void __fastcall TForm1::Button6Click(TObject *Sender)
+{
+   char buffer[16] = {0x00,0x01,0x00,0x06,0x01,0x06,0x06,0x05,0x00,0x00,0x00,0x01,0x05,0x12,0x05,0x13};
+}
+//---------------------------------------------------------------------------
+
+
+
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+	Rs232 *PortCom8;
+	PortCom8 = new Rs232("COM8");
+	PortCom8->configurer(CBR_9600,8,NOPARITY,ONESTOPBIT);
+	PortCom8->ouvrir();
+      //	delete PortCom8;
+	  /*	if (PortCom8->envoyer(0x02)!=-1)
+	{	PortCom8->envoyer(0x30);
+		PortCom8->fermer();
+	}
+	delete PortCom8;
+	if () {
+
+	   Label10->Caption = "connecté" ;
+	}
+    */
+}
+//---------------------------------------------------------------------------
 

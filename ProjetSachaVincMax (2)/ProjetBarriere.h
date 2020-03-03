@@ -29,9 +29,13 @@ __published:	// Composants gérés par l'EDI
 	TButton *Button4;
 	TButton *Button5;
 	TClientSocket *ClientSocket1;
+	TButton *Button6;
+	TLabel *Label10;
 	void __fastcall Button3Click(TObject *Sender);
 	void __fastcall ClientSocket1Error(TObject *Sender, TCustomWinSocket *Socket, TErrorEvent ErrorEvent,
           int &ErrorCode);
+	void __fastcall Button6Click(TObject *Sender);
+	void __fastcall Button1Click(TObject *Sender);
 
 
 

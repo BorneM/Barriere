@@ -1,12 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2020/02/03 13:28:24.000.849,=C:\Users\mborne\Documents\Embarcadero\Studio\Projets\Unit1.cpp</Transaction>
     <Transaction>2020/02/03 13:28:24.000.634,=C:\Users\mborne\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
-    <Transaction>2020/02/03 15:23:51.000.892,P:\Projet\ProjetBarriere.h=C:\Users\mborne\Documents\Embarcadero\Studio\Projets\Unit1.h</Transaction>
-    <Transaction>2020/02/03 15:23:51.000.892,P:\Projet\ProjetBarriere.dfm=C:\Users\mborne\Documents\Embarcadero\Studio\Projets\Unit1.dfm</Transaction>
-    <Transaction>2020/02/03 15:23:51.000.892,P:\Projet\ProjetBarriere.cpp=C:\Users\mborne\Documents\Embarcadero\Studio\Projets\Unit1.cpp</Transaction>
-    <Transaction>2020/02/03 15:24:00.000.010,P:\Projet\Project1PCH1.h=C:\Users\mborne\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
-    <Transaction>2020/02/03 15:24:03.000.879,P:\Projet\Project1.cbproj=C:\Users\mborne\Documents\Embarcadero\Studio\Projets\Project1.cbproj</Transaction>
+    <Transaction>2020/02/03 13:28:24.000.849,=C:\Users\mborne\Documents\Embarcadero\Studio\Projets\Unit1.cpp</Transaction>
+    <Transaction>2020/02/03 15:23:51.000.892,C:\Users\mborne\Documents\Embarcadero\Studio\Projets\Unit1.cpp=P:\Projet\ProjetBarriere.cpp</Transaction>
+    <Transaction>2020/02/03 15:23:51.000.892,C:\Users\mborne\Documents\Embarcadero\Studio\Projets\Unit1.h=P:\Projet\ProjetBarriere.h</Transaction>
+    <Transaction>2020/02/03 15:23:51.000.892,C:\Users\mborne\Documents\Embarcadero\Studio\Projets\Unit1.dfm=P:\Projet\ProjetBarriere.dfm</Transaction>
+    <Transaction>2020/02/03 15:24:00.000.010,C:\Users\mborne\Documents\Embarcadero\Studio\Projets\Project1PCH1.h=P:\Projet\Project1PCH1.h</Transaction>
+    <Transaction>2020/02/03 15:24:03.000.879,C:\Users\mborne\Documents\Embarcadero\Studio\Projets\Project1.cbproj=P:\Projet\Project1.cbproj</Transaction>
+    <Transaction>2020/03/03 14:01:32.831,=C:\Users\mborne\Desktop\ProjetSachaVincMax (2)\com.cpp</Transaction>
+    <Transaction>2020/03/03 14:01:32.836,=C:\Users\mborne\Desktop\ProjetSachaVincMax (2)\com.h</Transaction>
+    <Transaction>2020/03/03 15:08:15.596,=C:\Users\mborne\Desktop\ProjetSachaVincMax (2)\PortComDI.cpp</Transaction>
+    <Transaction>2020/03/03 15:08:15.601,=C:\Users\mborne\Desktop\ProjetSachaVincMax (2)\PortComDI.h</Transaction>
   </Transactions>
 </BorlandProject>

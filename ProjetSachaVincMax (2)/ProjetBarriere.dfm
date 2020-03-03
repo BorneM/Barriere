@@ -75,13 +75,21 @@ object Form1: TForm1
     Height = 13
     Caption = 'echec/ reussite connexion'
   end
+  object Label10: TLabel
+    Left = 448
+    Top = 128
+    Width = 57
+    Height = 13
+    Caption = 'Label10'
+  end
   object Button1: TButton
-    Left = 25
-    Top = 168
+    Left = 433
+    Top = 161
     Width = 97
     Height = 41
-    Caption = 'ouvrir'
+    Caption = 'ouvrirCOM'
     TabOrder = 0
+    OnClick = Button1Click
   end
   object Button2: TButton
     Left = 25
@@ -129,6 +137,15 @@ object Form1: TForm1
     Height = 41
     Caption = 'historique'
     TabOrder = 6
+  end
+  object Button6: TButton
+    Left = 25
+    Top = 193
+    Width = 97
+    Height = 41
+    Caption = 'Ouvrir'
+    TabOrder = 7
+    OnClick = Button6Click
   end
   object ClientSocket1: TClientSocket
     Active = False
